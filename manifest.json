@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "Modify cache-control",
+  "version": "1.0",
+  "description": "Force caching of the websites",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+  "background": {
+    "persistent": true,
+    "scripts": ["main.js"]
+  },
+  "browser_action": {
+    "default_popup": "menu.html",
+    "default_title": "Modify cache-control"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{b050bfd7-794b-4f68-a514-a8d474d9d661}",
+      "strict_min_version": "145.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  }
+}
