@@ -1,6 +1,6 @@
 ## Extension to force caching of the websites.
 > [!WARNING]
-> Tested only with firefox
+> Works only with firefox
 ### Installation
 - Download the .xpi on the Releases page.
 - Open firefox's add-ons page (about:addons).
